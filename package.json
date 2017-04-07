@@ -1,0 +1,26 @@
+{
+  "name": "freecodecamp-file-matadata",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp File Matadata Microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DawChihLiou/freecodecamp-file-metadata.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DawChihLiou/freecodecamp-file-metadata/issues"
+  },
+  "homepage": "https://github.com/DawChihLiou/freecodecamp-file-metadata#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "multer": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
