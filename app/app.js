@@ -19,11 +19,11 @@ $(function() {
             url: '/api/upload/',
             method: 'post',
             data: formData,
-            contentType: 'multipart/form-data',
+            contentType: false,
             processData: false
         })
         .done(function(data) {
-            $output.text('File Size: ' + data.filesize);
+            $output.text('File Size: ' + data.size);
         })
         .fail(function(err) {
            console.error(err);
